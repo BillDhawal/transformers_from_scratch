@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1f9bb06-d8ec-4580-993f-1305ec1821f6" name="Changes" comment="Code Encoder layes">
-      <change afterPath="$PROJECT_DIR$/input_embedding_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/position_embedding_test.py" afterDir="false" />
+    <list default="true" id="e1f9bb06-d8ec-4580-993f-1305ec1821f6" name="Changes" comment="Encoder completed&#10;add test files for input and position embedding">
+      <change afterPath="$PROJECT_DIR$/layer_norm_feed_forward_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
     </list>
@@ -25,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "BillDhawal"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BillDhawal&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/BillDhawal/transformers_from_scratch.git",
-    "accountId": "a52eda53-cf18-4edd-a481-c4b97a58e652"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BillDhawal/transformers_from_scratch.git&quot;,
+    &quot;accountId&quot;: &quot;a52eda53-cf18-4edd-a481-c4b97a58e652&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2qSMFRidXv2LfkWTVqFQn08BkBF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.input_embedding.executor": "Run",
+    "Python.layer_norm_feed_forward_test.executor": "Run",
     "Python.model.executor": "Run",
     "Python.position_embedding_test.executor": "Run",
     "Python.pytorch_test.executor": "Run",
@@ -82,11 +82,28 @@
       <option name="project" value="LOCAL" />
       <updated>1734741246391</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Encoder completed&#10;add test files for input and position embedding">
+      <option name="closed" value="true" />
+      <created>1736295953019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736295953019</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Encoder completed&#10;add test files for input and position embedding">
+      <option name="closed" value="true" />
+      <created>1736295979780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736295979780</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Code Encoder layes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code Encoder layes" />
+    <MESSAGE value="Encoder completed&#10;add test files for input and position embedding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encoder completed&#10;add test files for input and position embedding" />
   </component>
 </project>
