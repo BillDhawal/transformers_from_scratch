@@ -119,11 +119,11 @@ class MultiHeadAttention(nn.Module):
         key = self.w_k(k)
         value = self.w_v(v)
 
-        query = query.view(query.shape[0], query.shape[1], self.h, self.d_k).tanspose(1,2)
-        key = key.view(key.shape[0], key.shape[1], self.h, self.d_k).tanspose(1, 2)
-        value = value.view(value.shape[0], value.shape[1], self.h, self.d_k).tanspose(1, 2)
+        query = query.view(query.shape[0], query.shape[1], self.h, self.d_k).transpose(1,2)
+        key = key.view(key.shape[0], key.shape[1], self.h, self.d_k).transpose(1, 2)
+        value = value.view(value.shape[0], value.shape[1], self.h, self.d_k).transpose(1, 2)
 
-        x, self.attention_scores = MultiHeadAttention.attention(query,key, value, self.dropout)
+        x, self.attention_scores = MultiHeadAttention.attention(query,key, value,mask, self.dropout)
 
         x = x.transpose(1,2).contiguous().view(x.shape[0],-1, self.h * self.d_k)
         # (Batch, Seq_Len, d_model) ---> (Batch, Seq_Len, d_model)
